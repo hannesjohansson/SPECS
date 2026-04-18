@@ -40,8 +40,8 @@ updated: 2026-04-18
 ## Release
 
 ```yaml
-id: map-r1-core-loop
-type: map-release
+id: r1-core-loop
+type: release
 status: active
 title: Core loop
 window_start: 2026-02-01
@@ -356,13 +356,14 @@ accept specs, set goals, validate stories, approve work manifests, or flip
 release states.
 
 ## Always read
-- context/narrative.md
+- direction/narrative.md
 - .specs/config.yaml
 
 ## Context triggers
-- Touches system shape → context/architecture.md
-- References a journey → context/blueprint.md (or context/blueprints/[phase].md)
-- References principles → context/principles/[name].md
+- Strategic framing needed → direction/narrative-extended.md
+- Touches system shape → direction/architecture.md
+- References a journey → direction/blueprint.md
+- References principles → direction/principles/[name].md
 - Release-level or cross-spec → planning/release-map.md
 - Working on a spec → the spec + the release it references
 - Looking for work or claiming → the active release's work manifest
